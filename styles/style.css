@@ -1,0 +1,104 @@
+:root {
+  --primary: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.card {
+  background-color: var(--dark-blue);
+  /* background: linear-gradient(var(--light-grey) 0%, var(--dark-blue) 100%); */
+  border-radius: 0.5em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.icon img {
+  height: 50%;
+}
+
+.card .title {
+  color: var(--white);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.card p {
+  color: var(--medium-grey);
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.3em;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.rating-item {
+  /* background-color: aqua; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.button {
+  width: 100%;
+  border: none;
+  border-radius: 1.5em;
+  height: 3em;
+  background-color: var(--primary);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.deactive {
+  display: none;
+}
+
+/* Attibution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
