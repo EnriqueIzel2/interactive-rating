@@ -24,8 +24,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="card">
-        <!-- Rating state start -->
+      <div id="rating-card" class="card">
         <div class="icon">
           <img src="./images/icon-star.svg" alt="yellow star" />
         </div>
@@ -46,19 +45,25 @@
 
           <button class="button-submit">Submit</button>
         </form>
+      </div>
 
-        <!-- Rating state end -->
-
-        <!-- Thank you state start -->
-
-        <div class="deactive">
-          You selected
-          <!-- Add rating here -->
-          out of 5 Thank you! We appreciate you taking the time to give a
-          rating. If you ever need more support, don’t hesitate to get in touch!
+      <div id="thanks-card" class="card deactive">
+        <div class="thanks-img">
+          <img
+            src="./images/illustration-thank-you.svg"
+            alt="imagem de agradecimento"
+          />
         </div>
-
-        <!-- Thank you state end -->
+        <div class="result-container">
+          <div class="result-text">
+            <h1>You selected <span>2</span> out of 5</h1>
+          </div>
+          <h2 class="thanks-text">Thank you!</h2>
+        </div>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
       </div>
 
       <div class="attribution">
