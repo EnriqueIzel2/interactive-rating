@@ -4,7 +4,7 @@ const $ratingCard = document.querySelector("#rating-card");
 const $thanksCard = document.querySelector("#thanks-card");
 const $resultRating = document.querySelector("#result-rating");
 
-let ratingValue;
+let ratingValue = 5;
 
 $ratingItems.forEach(($button) =>
   $button.addEventListener("click", function (e) {
