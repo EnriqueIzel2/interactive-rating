@@ -1,0 +1,24 @@
+@media (min-width: 376px) {
+  .card {
+    border-radius: 2em;
+    max-width: 320px;
+    padding: 2em;
+  }
+
+  .icon {
+    margin-bottom: 2em;
+  }
+
+  .card .title {
+    font-size: 1.6em;
+  }
+
+  .button-submit {
+    margin-bottom: 0;
+  }
+
+  #thanks-card p {
+    font-size: 0.95em;
+    margin-bottom: 1em;
+  }
+}
